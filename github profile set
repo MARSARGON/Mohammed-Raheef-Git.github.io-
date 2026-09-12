@@ -1,0 +1,237 @@
+print("Hello, World")
+index.html
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mohammed Raheef | Information Systems Student</title>
+
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            background-color: #f4f6f8;
+            color: #222;
+            line-height: 1.6;
+        }
+
+        header {
+            background-color: #1f2937;
+            color: white;
+            text-align: center;
+            padding: 60px 20px;
+        }
+
+        header h1 {
+            margin: 0;
+            font-size: 42px;
+        }
+
+        header p {
+            font-size: 20px;
+            margin-top: 10px;
+        }
+
+        nav {
+            background-color: white;
+            text-align: center;
+            padding: 15px;
+            position: sticky;
+            top: 0;
+        }
+
+        nav a {
+            margin: 0 15px;
+            text-decoration: none;
+            color: #1f2937;
+            font-weight: bold;
+        }
+
+        section {
+            max-width: 900px;
+            margin: 40px auto;
+            padding: 30px;
+            background: white;
+            border-radius: 10px;
+        }
+
+        h2 {
+            color: #1f2937;
+            border-bottom: 2px solid #ddd;
+            padding-bottom: 10px;
+        }
+
+        .skills {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 10px;
+        }
+
+        .skill {
+            background-color: #e5e7eb;
+            padding: 8px 14px;
+            border-radius: 20px;
+        }
+
+        .project {
+            margin-bottom: 25px;
+            padding: 20px;
+            border-left: 4px solid #1f2937;
+            background-color: #f9fafb;
+        }
+
+        .project h3 {
+            margin-top: 0;
+        }
+
+        footer {
+            text-align: center;
+            padding: 30px;
+            background-color: #1f2937;
+            color: white;
+        }
+
+        a {
+            color: #2563eb;
+        }
+
+        @media (max-width: 600px) {
+            header h1 {
+                font-size: 32px;
+            }
+
+            section {
+                margin: 20px;
+                padding: 20px;
+            }
+
+            nav a {
+                display: inline-block;
+                margin: 5px;
+            }
+        }
+    </style>
+</head>
+
+<body>
+
+    <header>
+        <h1>Mohammed Raheef</h1>
+        <p>Information Systems Student | University of Utah</p>
+    </header>
+
+    <nav>
+        <a href="#about">About</a>
+        <a href="#skills">Skills</a>
+        <a href="#projects">Projects</a>
+        <a href="#resume">Resume</a>
+        <a href="#contact">Contact</a>
+    </nav>
+
+    <section id="about">
+        <h2>About Me</h2>
+
+        <p>
+            I am an Information Systems student at the University of Utah
+            interested in the intersection of business and technology. My
+            interests include information systems, artificial intelligence,
+            networking, data analysis, and using technology to solve practical
+            business problems. I am developing my technical skills through
+            coursework and hands-on projects involving data, programming,
+            business technology, and AI tools. My goal is to continue building
+            technical and business skills that can be applied to real-world
+            technology and information systems roles.
+        </p>
+    </section>
+
+    <section id="skills">
+        <h2>Skills</h2>
+
+        <div class="skills">
+            <span class="skill">HTML</span>
+            <span class="skill">CSS</span>
+            <span class="skill">Python</span>
+            <span class="skill">SQL</span>
+            <span class="skill">Git</span>
+            <span class="skill">GitHub</span>
+            <span class="skill">Microsoft Excel</span>
+            <span class="skill">Tableau</span>
+            <span class="skill">Data Analysis</span>
+            <span class="skill">AI Tools</span>
+            <span class="skill">Business Technology</span>
+            <span class="skill">Networking</span>
+        </div>
+    </section>
+
+    <section id="projects">
+        <h2>Projects</h2>
+
+        <div class="project">
+            <h3>AI Business Analysis</h3>
+            <p>
+                An AI-assisted business analysis project exploring how
+                artificial intelligence can be used to analyze information
+                and support business decision-making.
+            </p>
+        </div>
+
+        <div class="project">
+            <h3>Data Visualization</h3>
+            <p>
+                A data visualization project using Tableau to transform data
+                into clear and useful visual insights.
+            </p>
+        </div>
+
+        <div class="project">
+            <h3>Web Development</h3>
+            <p>
+                A web development project using HTML and CSS to create a
+                professional and responsive website.
+            </p>
+        </div>
+
+        <div class="project">
+            <h3>KPMG Group Project</h3>
+            <p>
+                Semester-long information systems group project focused on
+                applying business and technology concepts to a real-world
+                business problem.
+            </p>
+        </div>
+    </section>
+
+    <section id="resume">
+        <h2>Resume</h2>
+
+        <p>
+            My professional resume will be added here as my portfolio
+            develops.
+        </p>
+
+        <p><strong>Resume coming soon.</strong></p>
+    </section>
+
+    <section id="contact">
+        <h2>Contact</h2>
+
+        <p>
+            University of Utah student interested in information systems,
+            technology, AI, and networking.
+        </p>
+
+        <p>
+            GitHub:
+            <a href="https://github.com/Mohammed-Raheef-Git">
+                github.com/Mohammed-Raheef-Git
+            </a>
+        </p>
+    </section>
+
+    <footer>
+        <p>© 2026 Mohammed Raheef | Information Systems Student</p>
+    </footer>
+
+</body>
+</html>
